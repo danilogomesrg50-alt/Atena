@@ -1,0 +1,16 @@
+# Render Blueprint - ATENA Framework
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: atena-bot
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: BOT_NAME
+        value: ATENA
+      - key: HEALTH_CHECK_INTERVAL
+        value: 60

@@ -1,0 +1,12 @@
+# ATENA Framework Dependencies
+# Core dependencies
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Code analysis
+pylint>=2.17.0
+radon>=6.0.0
+
+# Utilities
+rich>=13.0.0
+click>=8.1.0
